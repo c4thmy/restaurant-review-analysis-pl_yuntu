@@ -65,7 +65,7 @@
 #### 5. 获取API Key
 ```
 Key格式: 32位字符串
-示例: a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6
+示例: your_amap_api_key_here
 复制保存备用
 ```
 
@@ -115,7 +115,7 @@ Key格式: 32位字符串
 #### 4. 获取AK (Access Key)
 ```
 AK格式: 24位字符串
-示例: A1B2C3D4E5F6G7H8I9J0K1L2
+示例: your_baidu_api_key_here
 在应用详情页面可以看到
 ```
 
@@ -194,9 +194,9 @@ Key格式: 32位字符串
 ### 2. 实际配置示例
 ```json
 {
-  "amap": "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6",
-  "baidu": "A1B2C3D4E5F6G7H8I9J0K1L2",
-  "tencent": "ABCDE-FGHIJ-KLMNO-PQRST-UVWXY-ZABCD-EFGHI"
+  "amap": "your_amap_api_key_here",
+  "baidu": "your_baidu_api_key_here",
+  "tencent": "your_tencent_api_key_here"
 }
 ```
 

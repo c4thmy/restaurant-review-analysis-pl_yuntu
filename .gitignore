@@ -77,14 +77,20 @@ venv.bak/
 .dmypy.json
 dmypy.json
 
-# Data files
+# Data files - 排除所有实际数据
 *.json
 !*_template.json
 !*_example.json
+!package.json
+!package-lock.json
+!requirements.json
 data/
 logs/
 temp/
 tmp/
+*analysis*.json
+*restaurant*.json
+*comment*.json
 
 # API keys and sensitive information
 api_keys.json
