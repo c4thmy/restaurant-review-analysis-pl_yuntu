@@ -1,0 +1,46 @@
+{
+  "amap": "9a63f38bf954b8d1ac5a38e65fff011e",
+  "baidu": "your_baidu_api_key_here",
+  "tencent": "your_tencent_api_key_here",
+  "_instructions": {
+    "description": "官方API密钥配置文件",
+    "how_to_get_keys": {
+      "amap": {
+        "url": "https://lbs.amap.com/",
+        "steps": [
+          "1. 注册高德开发者账号",
+          "2. 创建应用",
+          "3. 申请Web服务API密钥",
+          "4. 将密钥填入上面的amap字段"
+        ]
+      },
+      "baidu": {
+        "url": "https://lbsyun.baidu.com/",
+        "steps": [
+          "1. 注册百度开发者账号",
+          "2. 创建应用",
+          "3. 申请Place API密钥",
+          "4. 将AK填入上面的baidu字段"
+        ]
+      },
+      "tencent": {
+        "url": "https://lbs.qq.com/",
+        "steps": [
+          "1. 注册腾讯位置服务账号",
+          "2. 创建应用",
+          "3. 申请WebService API密钥",
+          "4. 将key填入上面的tencent字段"
+        ]
+      }
+    },
+    "usage_limits": {
+      "amap": "免费版每日30万次调用",
+      "baidu": "免费版每日10万次调用",
+      "tencent": "免费版每日1万次调用"
+    },
+    "cost_info": {
+      "note": "各平台都有免费额度，超出后按调用次数收费",
+      "recommendation": "建议先申请免费账号进行测试"
+    }
+  }
+}

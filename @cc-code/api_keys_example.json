@@ -1,0 +1,10 @@
+{
+  "amap": "demo_key_for_testing_please_replace_with_real_key",
+  "baidu": "your_baidu_api_key_here",
+  "tencent": "your_tencent_api_key_here",
+  "_instructions": {
+    "description": "官方API密钥配置文件",
+    "current_status": "高德地图密钥已配置(演示用)，请替换为您的真实密钥",
+    "how_to_replace": "将 demo_key_for_testing_please_replace_with_real_key 替换为您从 https://lbs.amap.com/ 获得的真实API密钥"
+  }
+}
