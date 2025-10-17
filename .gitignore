@@ -88,9 +88,22 @@ tmp/
 
 # API keys and sensitive information
 api_keys.json
+api_key.json
+*_key.json
+*_keys.json
+*secret*.json
+*config*.json
+!*_template.json
+!*_example.json
 *.key
 *.pem
+*.p12
+*.pfx
 secrets/
+.env*
+!.env.example
+config/secrets.py
+config/api_keys.py
 
 # Browser automation
 chromedriver*
